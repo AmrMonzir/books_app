@@ -132,3 +132,7 @@ compose.desktop {
         }
     }
 }
+
+task("testClasses").doLast {
+    //workaround for failing build
+}
